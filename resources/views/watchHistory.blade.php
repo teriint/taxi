@@ -1,0 +1,96 @@
+@extends('layouts.app')
+ 
+@section('content')
+<div class='container' id="adm">
+    <table id="currentHistory" class="table table-bordered table-responsive table-hover">
+        <thead>
+        <tr>
+            <th colspan="2">История текущего сеанса (Local Storage)</th>
+        </tr>
+        <tr>
+            <th>Страница</th>
+            <th>Количество посещений</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <table id="allTimeHistory" class="table table-bordered table-responsive table-hover">
+        <thead>
+        <tr>
+            <th colspan="2">История посещений за все время (Cookie)</th>
+        </tr>
+        <tr>
+            <th>Страница</th>
+            <th>Количество посещений</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+@endsection
