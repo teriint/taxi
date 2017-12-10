@@ -1,7 +1,11 @@
 <?php
 
 Auth::routes();
- 
+ Route::get('welcome/{locale}', function ($locale) {
+  App::setLocale($locale);
+
+  //
+});
 Route::get('/', 'PostController@index');
 Route::get('about', 'About@index');
 Route::get('interests', 'Interests@index');
