@@ -6,6 +6,11 @@ Auth::routes();
 
   //
 });
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 Route::get('/', 'PostController@index');
 Route::get('about', 'About@index');
 Route::get('interests', 'Interests@index');
