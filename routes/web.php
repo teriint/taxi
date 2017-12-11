@@ -1,7 +1,7 @@
 <?php
 
 Auth::routes();
- Route::get('/{locale}', function ($locale) {
+ Route::get('setlocals/{locale}', function ($locale) {
   App::setLocale($locale);
 
   //
