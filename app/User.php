@@ -7,7 +7,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Backpack\Base\app\Notifications\ResetPasswordNotification as ResetPasswordNotification;
 use Backpack\CRUD\CrudTrait; 
 use Spatie\Permission\Traits\HasRoles;
-
+use Backpack;
  
 class User extends Authenticatable
 {
