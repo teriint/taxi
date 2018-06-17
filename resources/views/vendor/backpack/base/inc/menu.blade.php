@@ -18,23 +18,16 @@
       <!-- ========================================================= -->
 
 @guest
-                            <li><a>Здравствуйте, <font color="#ff0000">Гость</font> </a></li>
+                            <li><a>Здравствуйте, <font color="#6d07f8">Гость</font> </a></li>
                           
 
                             <li><a href="{{ route('login') }}">Войти</a></li>
                             <li><a href="{{ route('register') }}">Зарегестрироваться</a></li>
                         @else
-                            <li><a>Здравствуйте, <font color="#ff0000">{{ Auth::user()->name }}</font> </a></li>
+                            <li><a>Здравствуйте, <font color="#6d07f8">{{ Auth::user()->name }}</font> </a></li>
                                     	<li><a href="{{ route('list_drafts') }}">Заказы в обработке</a></li>
-                                    	<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-    <i class="fa fa-globe"></i> Translations<span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li class=""><a href="{{ url(config('backpack.base.route_prefix', 'admin').'/language') }}"><i class="fa fa-flag-checkered"></i> Languages</a></li>
-    <li class=""><a href="{{ url(config('backpack.base.route_prefix', 'admin').'/language/texts') }}"><i class="fa fa-language"></i> Site texts</a></li>
-  </ul>
-</li>
+                                  
+
                                     <li><a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">	
                                             Выйти
                                         </a> </li>

@@ -55,7 +55,7 @@
         <!-- Logo -->
          <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        Такси "Гончие" - Мчи к мечте	
+                        Такси "Гончие"	
                     </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">

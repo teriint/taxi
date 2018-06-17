@@ -13,7 +13,7 @@
 <section class="content-header">
 
     <h1>
-        {{ trans('backpack::base.my_account') }}
+        Мой аккаунт
     </h1>
 
     <ol class="breadcrumb">
@@ -23,11 +23,13 @@
         </li>
 
         <li>
-            <a href="{{ route('backpack.account.info') }}">{{ trans('backpack::base.my_account') }}</a>
+            <a href="{{ route('backpack.account.info') }}">
+            	Мой аккаунт
+            </a>
         </li>
 
         <li class="active">
-            {{ trans('backpack::base.change_password') }}
+            Изменить пароль
         </li>
 
     </ol>
@@ -68,7 +70,7 @@
 
                     <div class="form-group">
                         @php
-                            $label = trans('backpack::base.old_password');
+                            $label = 'Старый пароль';
                             $field = 'old_password';
                         @endphp
                         <label class="required">{{ $label }}</label>
@@ -77,7 +79,7 @@
 
                     <div class="form-group">
                         @php
-                            $label = trans('backpack::base.new_password');
+                            $label = 'Новый пароль';
                             $field = 'new_password';
                         @endphp
                         <label class="required">{{ $label }}</label>
@@ -97,8 +99,8 @@
 
                 <div class="box-footer">
 
-                    <button type="submit" class="btn btn-success"><span class="ladda-label"><i class="fa fa-save"></i> {{ trans('backpack::base.change_password') }}</span></button>
-                    <a href="{{ backpack_url() }}" class="btn btn-default"><span class="ladda-label">{{ trans('backpack::base.cancel') }}</span></a>
+                    <button type="submit" class="btn btn-success"><span class="ladda-label"><i class="fa fa-save"></i> Изменить пароль</span></button>
+                    <a href="{{ backpack_url() }}" class="btn btn-default"><span class="ladda-label">Отмена</span></a>
 
                 </div>
             </div>

@@ -1,5 +1,7 @@
 @extends('layouts.app')
- <style type="text/css">#ok_group_widget {
+
+ <style type="text/css">
+ #ok_group_widget {
     position: relative;
     left:-9px;
     margin-top:-1px;
@@ -8,9 +10,7 @@
   .traffic {
     border-radius:0;
   }
-  #ymaps-map-id_95905086 {
-    height: 350px !important;
-  }
+
   .teaser_box .teaser {
     text-align: center;
     float: left;
@@ -18,7 +18,7 @@
     padding: 20px 10px;
 }
 </style>
-</p>
+
 <style type="text/css">div:not(.home_phones).short_phones i {
     background: none;
     position: relative;
@@ -47,6 +47,7 @@
     margin-left: -3px;
   }
 </style>
+
 @section('content')
 <div class='container' id="adm">
     <div id="main_box">

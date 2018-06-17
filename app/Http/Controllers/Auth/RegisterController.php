@@ -52,7 +52,7 @@ class RegisterController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
-            'role' => 'required|exists:roles,id', // validating role
+           
         ]);
     }
 
@@ -76,6 +76,6 @@ class RegisterController extends Controller
     public function showRegistrationForm()
 {
     $roles = Role::orderBy('name')->pluck('name', 'id');
-    return view('auth.register', compact('roles'));
+    return view('auth.register	', compact('roles'));
 }
 }

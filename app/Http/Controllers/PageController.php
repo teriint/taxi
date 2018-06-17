@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Backpack\PageManager\app\Models\Page;
+use App\Http\Controllers\Controller;
 
 class PageController extends Controller
 {
@@ -12,7 +13,7 @@ class PageController extends Controller
 
         if (!$page)
         {
-            abort(404, 'Please go back to our <a href="'.url('').'">homepage</a>.');
+            abort(404, 'Пожалуйста, вернитесь на <a href="'.url('').'">домашнюю страницу</a>.');
         }
 
         $this->data['title'] = $page->title;

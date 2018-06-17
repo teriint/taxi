@@ -13,7 +13,7 @@
 <section class="content-header">
 
     <h1>
-        {{ trans('backpack::base.my_account') }}
+        Мой аккаунт
     </h1>
 
     <ol class="breadcrumb">
@@ -23,11 +23,11 @@
         </li>
 
         <li>
-            <a href="{{ route('backpack.account.info') }}">{{ trans('backpack::base.my_account') }}</a>
+            <a href="{{ route('backpack.account.info') }}">Мой аккаунт</a>
         </li>
 
         <li class="active">
-            {{ trans('backpack::base.update_account_info') }}
+            Мой аккаунт
         </li>
 
     </ol>
@@ -88,8 +88,8 @@
 
                 <div class="box-footer">
 
-                    <button type="submit" class="btn btn-success"><span class="ladda-label"><i class="fa fa-save"></i> {{ trans('backpack::base.save') }}</span></button>
-                    <a href="{{ backpack_url() }}" class="btn btn-default"><span class="ladda-label">{{ trans('backpack::base.cancel') }}</span></a>
+                    <button type="submit" class="btn btn-success"><span class="ladda-label"><i class="fa fa-save"></i> Сохранить</span></button>
+                    <a href="{{ backpack_url() }}" class="btn btn-default"><span class="ladda-label">Отмена</span></a>
 
                 </div>
             </div>

@@ -1,8 +1,11 @@
 @extends('layouts.app')
  
 @section('content')
+
 <div class='container' id="adm">
-  <table border="1"  cellpadding="0" width="400"  height="200" cellspacing="0" style="  float:left; margin:0 9px 0 0;">
+
+
+<table border="1"  cellpadding="0" width="400"  height="200" cellspacing="0" style="float:left; margin:0 9px 0 0;">
 <tr><td><p style="text-align: center"><img alt="" src="/img/skidka.jpg" style="width: 200px; height: 200px;" /></p>
 <p ><strong style="color:#fd1502">Вам предоставляется 25% скидка на заказ такси по г. Севастополь.</strong> </p>
 
@@ -79,9 +82,10 @@
 <p><strong style="color:#1fe0e0">6.</strong>&nbsp;Диспетчерская служба&nbsp;&laquo;ГОНЧИЕ&raquo;&nbsp;не несет перед заказчиком материальной либо иной ответственности за действия или бездействие третьего лица &ndash; перевозчика (фрахтовщика), в случае, если такси перевозчика не прибыло на заказ или прибыло на заказ позже времени, рекомендованного заказчиком, либо перевозка заказчика сопровождалась обстоятельствами, которые привели или могли привести к материальному или иному ущербу заказчика.</p>
 
 <p>&nbsp;</p>
+
 </article>
-					</div>
-					</div>
+</div>
 </td></tr></table>
 </div>
+
 @endsection
